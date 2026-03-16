@@ -1,0 +1,46 @@
+CLS
+FOR X = 1 TO 20
+PRINT "С Новым Годом!"
+NEXT X
+
+CLS
+INPUT "Введите число членов ряда: n=", n
+FOR i = 1 TO n
+S = S + 1 / i ^ 2
+NEXT i
+PRINT "Сумма n первых членов ряда равна: S=", S
+
+SCREEN 7
+FOR i = 1 TO 15
+CIRCLE (160, 100), i * 6, i
+NEXT i
+
+SCREEN 7
+FOR i = 1 TO 32
+LINE (0, 10 * i)-(320, 10 * i), 15
+LINE (10 * i, 0)-(10 * i, 200), 15
+NEXT i
+
+
+CLS
+FOR X = 1 TO 20
+PRINT "С Новым Годом!"
+NEXT X
+
+CLS
+INPUT "Введите число членов ряда: n=", n
+FOR i = 1 TO n
+S = S + 1 / i ^ 2
+NEXT i
+PRINT "Сумма n первых членов ряда равна: S=", S
+
+SCREEN 7
+FOR i = 1 TO 15
+CIRCLE (160, 100), i * 6, i
+NEXT i
+
+SCREEN 7
+FOR i = 1 TO 32
+LINE (0, 10 * i)-(320, 10 * i), 15
+LINE (10 * i, 0)-(10 * i, 200), 15
+NEXT i
